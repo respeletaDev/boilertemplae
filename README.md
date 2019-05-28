@@ -9,11 +9,15 @@
 -   Docker
 
 # Documentación 
-
+- [`1)Componentes arquitectónicos`](https://github.com/respeletaDev/boilertemplae/blob/master/README.md#c%C3%B3mo-publicar-cambios)
+- [`Cómo publicar cambios`](https://github.com/respeletaDev/boilertemplae/blob/master/README.md#c%C3%B3mo-publicar-cambios)
 - [`Cómo publicar cambios`](https://github.com/respeletaDev/boilertemplae/blob/master/README.md#c%C3%B3mo-publicar-cambios)
 
+## 1) Componentes arquitectónicos
 
-# Cómo publicar cambios
+### Api
+
+## Cómo publicar cambios
 
 - Login en el servidor
 
