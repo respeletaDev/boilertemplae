@@ -8,12 +8,35 @@
 -   Mongo DB
 -   Docker
 
-# Installing and Running this app
+# Documentación 
 
-**Note**: Refer to the sections below.
+- [`Cómo publicar cambios`](https://github.com/cebroker/ceb-core-settings-service/tree/master/api)
 
-- [`Api`](https://github.com/cebroker/ceb-core-settings-service/tree/master/api)
-- [`Sycn`](https://github.com/cebroker/ceb-core-settings-service/tree/master/sync)
-- [`Checker`](https://github.com/cebroker/ceb-core-settings-service/tree/master/checker)
+
+# Cómo publicar cambios
+
+- Login en el servidor
+
+- Ir al directorio del proyecto
+    
+      cd /var/www/api-core-service
+
+- Obtener la versión mas reciente del código  `Depende del ambiente que usted requiera liberar [dev-branch, integration(test-site) or master(production)]`
+
+      git checkout master
+      git pull
+
+- Descargar node Dependencias
+
+      cd api
+      npm install
+      cd ..
+
+- Iniciar y guardar los procesos pm2 
+
+      pm2 start pm2.process.yml      
+      pm2 save
+      
+
 
 
