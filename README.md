@@ -10,7 +10,7 @@
 
 # Documentación 
 
-- [`Cómo publicar cambios`](https://github.com/cebroker/ceb-core-settings-service/tree/master/api)
+- [`Cómo publicar cambios`](https://github.com/respeletaDev/boilertemplae/blob/master/README.md#c%C3%B3mo-publicar-cambios)
 
 
 # Cómo publicar cambios
